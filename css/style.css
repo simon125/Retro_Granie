@@ -1,0 +1,84 @@
+body{
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+}
+.clearDiv{
+    clear: both;
+}
+.wrapper{
+    width: 100%;
+}
+.header{
+    widhth: 100%;
+    padding: 40px 0;
+}
+.logo{
+    width: 450px;
+    font-size: 48px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.nav{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #c34f4f;
+    text-align: center;
+    border-top: 1px solid #751b1b;
+    border-bottom: 1px solid #751b1b;
+    height: 40px;
+}
+.content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    
+}
+.socials{
+    width: 100%;
+    text-align: center;
+    background-color: #292929;
+
+}
+.socialsdivs{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.facebook{
+    float: left;
+    min-width: 250px;
+    height: 155px;
+}
+.facebook:hover{
+    background-color: #4668b3;
+}
+.youtube{
+    float: left;
+    min-width: 250px;
+    height: 155px;
+}
+.youtube:hover{
+    background-color: #d94348;
+}
+.twitter{
+    float: left;
+    min-width: 250px;
+    height: 155px;
+}
+.twitter:hover{
+    background-color: #3095d3;
+}
+.googleplus{
+    float: left;
+    min-width: 250px;
+    height: 155px;
+}
+.googleplus:hover{
+    background-color: #d95333;
+}
