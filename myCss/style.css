@@ -30,7 +30,6 @@ body{
     text-align: center;
     border-top: 1px solid #751b1b;
     border-bottom: 1px solid #751b1b;
-    height: 40px;
 }
 .content{
     padding-top: 10px;
@@ -94,4 +93,33 @@ body{
     left: 0;
     top: 0;
     z-index: 100;
+}
+ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+ol a{
+    color: white;
+    text-decoration: none;
+    display: block
+}
+ol > li:hover > a{
+    color:  #751b1b;
+}
+ol > li{ /* rodzic > potomek -stylizujemy/czytamy od prawej do lewej-stylizujemy elementy li które są potomkami ol */
+   float: left;
+   width: 150px;
+   height: 40px;
+   border-right: 1px dashed #751b1b;
+}
+ol > li:first-child{
+    border-left: 1px dashed #751b1b;
+}
+ol > li:hover{
+    background-color: #cf6969;
 }

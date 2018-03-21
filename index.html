@@ -21,6 +21,14 @@
             </div>
         </div>
         <div class="nav">
+            <ol>
+                <li><a href="#">Main site</a></li>
+                <li><a href="#">Klasyki nes</a></li>
+                <li><a href="#">Gry filmowe</a></li>
+                <li><a href="#">Bijatyki</a></li>
+                <li><a href="#">Gry sportowe</a></li>
+                <li><a href="#">O autorach</a></li>
+            </ol>
 
         </div>
         <div class="content">
@@ -51,6 +59,18 @@
             cum labore sequi quia sunt est debitis unde laborum quibusdam pariatur, ipsa exercitationem cumque velit.Mollitia temporibus ipsa soluta. Voluptas facere temporibus, corporis excepturi consectetur nemo odit 
             cum labore sequi quia sunt est debitis unde laborum quibusdam pariatur, ipsa exercitationem cumque velit. </p>
         
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis cumque atque quas architecto sed quos, voluptas nemo illum, inventore dicta omnis dolores, placeat recusandae vel rem expedita quasi autem ratione? Laborum itaque, obcaecati iure minima quod officia porro autem, ipsam recusandae enim cum unde culpa doloremque libero eos deleniti molestias sint modi necessitatibus totam dolore, sapiente aspernatur est. Nostrum tempore, quis, officia alias laudantium consequuntur at quisquam maxime ab ex, ullam libero incidunt soluta amet. Sequi veniam pariatur magnam quisquam quae voluptates, quod minus doloribus voluptas magni doloremque asperiores cum qui molestias laborum cupiditate ipsum explicabo voluptate dolore maxime suscipit.
+
+            </p>
+            <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis cumque atque quas architecto sed quos, voluptas nemo illum, inventore dicta omnis dolores, placeat recusandae vel rem expedita quasi autem ratione? Laborum itaque, obcaecati iure minima quod officia porro autem, ipsam recusandae enim cum unde culpa doloremque libero eos deleniti molestias sint modi necessitatibus totam dolore, sapiente aspernatur est. Nostrum tempore, quis, officia alias laudantium consequuntur at quisquam maxime ab ex, ullam libero incidunt soluta amet. Sequi veniam pariatur magnam quisquam quae voluptates, quod minus doloribus voluptas magni doloremque asperiores cum qui molestias laborum cupiditate ipsum explicabo voluptate dolore maxime suscipit.
+    
+            </p>
+            <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis cumque atque quas architecto sed quos, voluptas nemo illum, inventore dicta omnis dolores, placeat recusandae vel rem expedita quasi autem ratione? Laborum itaque, obcaecati iure minima quod officia porro autem, ipsam recusandae enim cum unde culpa doloremque libero eos deleniti molestias sint modi necessitatibus totam dolore, sapiente aspernatur est. Nostrum tempore, quis, officia alias laudantium consequuntur at quisquam maxime ab ex, ullam libero incidunt soluta amet. Sequi veniam pariatur magnam quisquam quae voluptates, quod minus doloribus voluptas magni doloremque asperiores cum qui molestias laborum cupiditate ipsum explicabo voluptate dolore maxime suscipit.
+    
+            </p>
         </div>
         <div class="socials">
 
@@ -72,32 +92,7 @@
     </div> <!-- wrapper -->
 
     <script src="jquery-3.3.1.min.js"></script>
-    <script>
-    
-$(document).ready(function(){
-
-
-var NavY = $('.nav').offset().top
-
-var stickyNav = function(){
-    var ScrollY = $(window).scrollTop();
-
-    if(ScrollY > NavY) {
-        $('.nav').addClass('sticky');
-    } else {
-        $('.nav').removeClass('sticky');
-    }
-    }
-
-    stickyNav();
-
-    $(window).scroll(function(){
-        stickyNav();
-    });
-
-});
-
-    </script>
+    <script src="sticky.js"></script>
     
 </body>
 </html>
